@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    
+}
+section{
+    display: flex;
+    
+    padding: 20px;
+    justify-content: center;
+    gap: 14px;;
+    /* justify-content: center;
+Container ke andar jitne bhi items hain, unko seedha center mein rakh do (left aur right ke beech). */
+
+
+}
+div{
+    width: 100px;
+    height: 100px;
+    
+
+}
+
+.box1{
+background-color: red;
+}
+.box2{
+background-color: #f0f;
+}
+.box3{
+ background-color: hsl(200, 60%, 50%);
+}
+.box4{
+background-color: brown;
+}
+.box5{
+background-color: chartreuse;
+}
+
+.sec2{
+    background-image: url("https://picsum.photos/1200/600");
+    width: auto;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center; 
+    /* beech mai karne kai lye  */
+    color: rgb(1, 1, 241);
+    display: flex;
+}
+
+.card-continer{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+.card{
+    width: 350px;
+    height: 350px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    border-radius: 20px;
+    text-align: center;
+    padding: 30px;
+   
+}
+
+.card button {
+    padding: 12px 25px;
+    border-radius: 30px;
+    color: white;
+    background: radial-gradient(circle, #ff9a9e, #fad0c4);
+}
+.card p {
+    font-size: 20px;
+    margin: 15px 30px ;
+}
